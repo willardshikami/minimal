@@ -81,16 +81,18 @@ nav ul li {
 .landing {
     background: #f0f0f0;
     text-align: center;
-    padding: 248px;
     line-height: normal;
 }
 
 .landing h1{
     font-size: 40px;
+    padding-top: 200px
 }
 
 .landing p{
     font-size: 20px;
+    padding-bottom: 200px
+
 }
 
 .col img {
@@ -98,29 +100,23 @@ nav ul li {
 }
 
 
-/*  GRID OF FOUR   ============================================================================= */
+/*  GRID OF TWO   ============================================================================= */
 
-	
-.span_4_of_4 {
-	width: 100%; 
+
+.span_2_of_2 {
+	width: 100%;
 }
 
-.span_3_of_4 {
-	width: 74.6%; 
+.span_1_of_2 {
+	width: 49.2%;
 }
-
-.span_2_of_4 {
-	width: 49.2%; 
-}
-
-.span_1_of_4 {
-	width: 23.8%; 
-}
-
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
     
     .col img {
         width: inherit;
@@ -130,26 +126,18 @@ nav ul li {
     .logo {
         text-align: center;
     }
-    
-	.span_4_of_4 {
-		width: 100%; 
-	}
-	.span_3_of_4 {
-		width: 100%; 
-	}
-	.span_2_of_4 {
-		width: 100%; 
-	}
-	.span_1_of_4 {
+	.span_1_of_2 {
 		width: 100%; 
 	}
 }
 
 
 
+
 /*  SECTIONS  ============================================================================= */
 
 .section {
+    background-image: url()
 	clear: both;
 	padding: 0px;
 	margin: 0px;
@@ -187,4 +175,12 @@ nav ul li {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
+}
+
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: normal;
 }
