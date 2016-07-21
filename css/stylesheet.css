@@ -86,17 +86,26 @@ nav ul li {
 
 .landing h1{
     font-size: 40px;
-    padding-top: 200px
+    padding-top: 150px
 }
 
 .landing p{
     font-size: 20px;
-    padding-bottom: 200px
+    padding-bottom:150px
 
 }
 
 .col img {
     width: 100%;
+}
+
+.col a{
+    color: #000;
+}
+
+.col{
+    font-size: 22px;
+    background: #fff
 }
 
 
@@ -118,7 +127,7 @@ nav ul li {
 		width: 100%; 
 	}
     
-    .col img {
+    .col img a{
         width: inherit;
     }
     
@@ -177,6 +186,11 @@ nav ul li {
 	}
 }
 
+.large {
+    background-image:url(../images/bg1.jpg); 
+    background-attachment: fixed;
+    background-size: 100%;
+}
 
 .footer {
     text-align: center;
